@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-container{
+    width: 1150px;
+    height: 530px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    background-image: url("./images/Banner\ Image.png");
+    background-color: rgba(0,0,0,0.5);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.banner-text p,h1{
+    color: white;
+    text-align: center;
+   
+
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 530px;
+    
+}
+.banner-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 85px;
+    letter-spacing: 0%;
+}
+
+.second-section{
+    width: 802.9px;
+    height: 506px;
+    margin: 0 auto;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 75px;
+
+}
+.second-section-text h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 68px;
+    font-weight: 650;
+    line-height: 107px;
+    letter-spacing: 0%;
+    margin-left: 50px;
+}
+.second-section-text p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin left: 50px;;
+
+
+}
+.second-section-text h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 630;
+    line-height: 58px;
+    letter-spacing: 0%;
+}
+.second-section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+    /* border: 2px solid rebeccapurple; */
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.midnight-container{
+    width: 1150px;
+    height: 530px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    background-image: url("./images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-contant{
+    width: 60%;
+    height: 530px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+}
+.right-contant{
+    width: 40%;
+    /* height: 530px; */
+    /* border: 2px solid yellow; */
+}
+.right-contant img{
+    width: 249.16px;
+    height: 264.65px;
+    display: flex;
+    margin-top: 10px;
+}
+.midnight-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.midnight-container p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    width: 697px;
+    height: 60px;
+}
+#midnight-button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+}
